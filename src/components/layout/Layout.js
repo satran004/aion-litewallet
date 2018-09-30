@@ -57,7 +57,7 @@ class Layout extends React.Component {
                     <Toolbar>
                         <img src="aion-icon.png" height='40' width='40'/>
                         <Typography variant="title" color="inherit" noWrap>
-                            Aion Offline Wallet
+                            Aion Lite Wallet
                         </Typography>
                     </Toolbar>
                 </AppBar>
