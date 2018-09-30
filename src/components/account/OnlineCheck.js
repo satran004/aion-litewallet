@@ -1,6 +1,7 @@
 import React from 'react'
 import Typography from "@material-ui/core/Typography/Typography";
 import Checkbox from "@material-ui/core/Checkbox/Checkbox";
+import Button from "@material-ui/core/Button/Button";
 
 class OnlineCheck extends React.Component {
 
@@ -77,7 +78,8 @@ class OnlineCheck extends React.Component {
                             It is recommended to use this tool in offline mode.
                         </Typography>
                         <Typography variant="subheading" gutterBottom align="center" color="error">
-                            Please <b>disconnect</b> your internet connection (Example: Disable your WIFI connection) and <b> reload </b> the page.
+                            Please <b>disconnect</b> your internet connection first (Example: Disable your WIFI connection) and
+                            &nbsp;<Button onClick={this.onlineCheck} variant="contained" color="secondary"  size="small">Click this</Button>
                         </Typography>
 
                         If you still want to proceed while connected, click here
